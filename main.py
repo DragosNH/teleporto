@@ -36,3 +36,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# https://programmingpixels.com/handling-a-title-screen-game-flow-and-buttons-in-pygame.html
+#The documentation that i will look over latter
