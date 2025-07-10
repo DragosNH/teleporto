@@ -18,7 +18,7 @@ def main():
             game_state = title_screen(screen)
 
         elif game_state == GameState.NEWGAME:
-            game_state = GameState.TITLE
+            game_state = first_level(screen)
 
         elif game_state == GameState.QUIT:
             break

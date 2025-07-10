@@ -47,7 +47,7 @@ def title_screen(screen):
         font_size=30,
         bg_rgb=(27, 36, 72),
         text_rgb=(228, 219, 183),
-        text="Start Game",
+        text="New Game",
         action=GameState.NEWGAME,
     )
     quit_btn = UIElement(
@@ -71,8 +71,6 @@ def title_screen(screen):
             if e.type == pygame.KEYDOWN:
                 if e.key == pygame.K_ESCAPE:
                     return GameState.QUIT
-            if e.type == start_btn:
-                return GameState.NEWGAME
 
         screen.fill((27, 36, 72))
 
