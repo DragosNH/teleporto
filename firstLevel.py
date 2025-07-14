@@ -15,5 +15,9 @@ def first_level(screen):
                 return GameState.TITLE
 
         screen.fill((0, 0, 0))
+
+
+
+
         pygame.display.flip()
         clock.tick(60)
